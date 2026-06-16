@@ -1,0 +1,21 @@
+.inventory-page__header {
+  padding: 4rem 0 3rem;
+  background: linear-gradient(180deg, var(--color-bg-elevated) 0%, var(--color-bg) 100%);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inventory-page__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.inventory-page__subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.inventory-page__content {
+  padding: 3rem 1.5rem 5rem;
+}

@@ -1,0 +1,8 @@
+.featured {
+  background: var(--color-bg-elevated);
+}
+
+.featured__cta {
+  text-align: center;
+  margin-top: 3rem;
+}
