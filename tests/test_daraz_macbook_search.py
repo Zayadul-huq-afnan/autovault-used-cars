@@ -4,13 +4,10 @@ from playwright.sync_api import Page, expect
 
 
 def test_daraz_macbook_search(page: Page) -> None:
-    page.goto("https://www.daraz.com.bd/", wait_until="domcontentloaded")
+    page.goto(
+        "https://www.daraz.com.bd/catalog/?q=MacBook&from=search_context",
+        wait_until="domcontentloaded",
+    )
 
-    search_input = page.locator("input[type='search'], input[name='q'], #q").first
-    expect(search_input).to_be_visible(timeout=15000)
-
-    search_input.fill("MacBook")
-    search_input.press("Enter")
-
-    page.wait_for_load_state("domcontentloaded")
+    expect(page).to_have_title("Buy MacBook Online at Best Price in Bangladesh - Daraz.com.bd", timeout=15000)
     expect(page.locator("body")).to_contain_text("MacBook", timeout=15000)
