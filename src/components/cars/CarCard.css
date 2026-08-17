@@ -15,7 +15,7 @@
 .car-card__image-wrap {
   position: relative;
   display: block;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 20 / 10;
   overflow: hidden;
 }
 
