@@ -20,7 +20,7 @@
 }
 
 .car-card__image-wrap img {
-  width: 100%;
+  width: 200%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
