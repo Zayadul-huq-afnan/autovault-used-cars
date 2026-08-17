@@ -33,7 +33,7 @@
 .car-card__year {
   position: absolute;
   top: 1rem;
-  left: 1rem;
+  left: 2grem;
   padding: 0.25rem 0.625rem;
   background: rgba(10, 10, 11, 0.75);
   backdrop-filter: blur(8px);
