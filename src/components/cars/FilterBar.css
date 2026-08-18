@@ -27,7 +27,7 @@
 }
 
 .filter-bar__search input {
-  flex: 1;
+  flex: 2;
   padding: 0.875rem 0;
   background: transparent;
   border: none;
