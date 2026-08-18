@@ -9,7 +9,7 @@
 }
 
 .filter-bar__search {
-  flex: 1;
+  flex: 2;
   min-width: 220px;
   display: flex;
   align-items: center;
